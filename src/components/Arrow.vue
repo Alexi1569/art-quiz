@@ -36,7 +36,7 @@
     position: absolute;
     width: 5.375rem;
     height: 6.25rem;
-    background: #fff url('../assets/img/arrow-wrap.png') no-repeat center;
+    background: #fff url('/img/arrow-wrap.png') no-repeat center;
     background-size: contain;
     top: 50%;
     transition: .2s all ease;

@@ -24,6 +24,35 @@
 </script>
 
 <style lang="scss">
+  @font-face {
+    font-family: 'Montserrat med';
+    src: url('./assets/fonts/Montserrat-Medium.eot');
+    src: url('./assets/fonts/Montserrat-Medium.eot?#iefix') format("embedded-opentype"), url('./assets/fonts/Montserrat-Medium.woff2') format("woff2"), url('./assets/fonts/Montserrat-Medium.woff') format("woff"), url('./assets/fonts/Montserrat-Medium.ttf') format("truetype"), url('./assets/fonts/Montserrat-Medium.svg#Montserrat-Medium') format("svg");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat light';
+    src: url('./assets/fonts/Montserrat-Light.eot');
+    src: url('./assets/fonts/Montserrat-Light.eot?#iefix') format("embedded-opentype"), url('./assets/fonts/Montserrat-Light.woff2') format("woff2"), url('./assets/fonts/Montserrat-Light.woff') format("woff"), url('./assets/fonts/Montserrat-Light.ttf') format("truetype"), url('./assets/fonts/Montserrat-Light.svg#Montserrat-Light') format("svg");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Acrom';
+    src: url('./assets/fonts/Acrom-Bold.eot');
+    src: url('./assets/fonts/Acrom-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Acrom-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Acrom-Bold.woff') format('woff'),
+    url('./assets/fonts/Acrom-Bold.ttf') format('truetype'),
+    url('./assets/fonts/Acrom-Bold.svg#Acrom-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
   *, *:before, *:after {
     padding: 0;
     margin: 0;

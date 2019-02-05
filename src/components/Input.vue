@@ -44,69 +44,70 @@
 </script>
 
 <style lang="scss">
+
   .input {
     width: 100%;
     display: block;
     margin-bottom: 2rem;
     .dropdown-toggle {
-      height: 5rem;
+      height: 5rem !important;
     }
     .dropdown-menu {
-      border-radius: 0;
+      border-radius: 0 !important;
       li {
         &.highlight {
           a {
-            background: linear-gradient(270deg, #004f9f 0%, #7db9e8 100%);
+            background: linear-gradient(270deg, #004f9f 0%, #7db9e8 100%) !important;
           }
         }
       }
     }
     .clear {
-      display: none;
+      display: none !important;
     }
     .selected-tag {
-      border-radius: 0;
-      margin: 0;
-      font-size: 22px;
-      padding: 0 2.1875rem;
-      white-space: nowrap;
-      width: 100%;
-      text-overflow: ellipsis;
-      color: rgba(#333, .5);
-      height: 100%;
+      border-radius: 0 !important;
+      margin: 0 !important;
+      font-size: 22px !important;
+      padding: 0 2.1875rem !important;
+      white-space: nowrap !important;
+      width: 100% !important;
+      text-overflow: ellipsis !important;
+      color: rgba(#333, .5) !important;
+      height: 100% !important;
     }
     .dropdown-toggle {
-      padding: 0;
-      border-radius: 0;
-      font-family: 'Montserrat light';
+      padding: 0 !important;
+      border-radius: 0 !important;
+      font-family: 'Montserrat light' !important;
     }
     .vs__actions {
-      width: 16.6%;
-      padding: 0;
-      justify-content: center;
-      align-items: center;
-      border-left: 1px solid rgba(#333, .25);
+      width: 16.6% !important;
+      padding: 0 !important;
+      justify-content: center !important;
+      align-items: center !important;
+      border-left: 1px solid rgba(#333, .25) !important;
     }
     .v-select {
       .open-indicator {
-        width: 100%;
-        height: 100%;
+        width: 100% !important;
+        height: 100% !important;
         &:before {
-          width: 0;
-          height: 0;
-          margin: auto;
-          border-style: solid;
-          border-width: 10px 8px 0 8px;
-          transform: none;
-          border-color: rgba(#333, .25) transparent transparent transparent;
+          width: 0 !important;
+          height: 0 !important;
+          margin: auto !important;
+          border-style: solid !important;
+          border-width: 10px 8px 0 8px !important;
+          transform: none !important;
+          border-color: rgba(#333, .25) transparent transparent transparent !important;
         }
       }
     }
     .vs__selected-options {
-      padding: 0;
+      padding: 0 !important;
     }
     &:last-of-type {
-      margin-bottom: 0;
+      margin-bottom: 0 !important;
     }
     input, textarea {
       display: block;
@@ -171,13 +172,13 @@
         height: 4rem;
       }
       .dropdown-toggle {
-        height: 4rem;
+        height: 4rem !important;
       }
       textarea {
         height: 10rem;
       }
       .selected-tag {
-        font-size: 18px;
+        font-size: 18px !important;
       }
     }
   }
@@ -204,13 +205,13 @@
         height: 3.5rem;
       }
       .dropdown-toggle {
-        height: 3.5rem;
+        height: 3.5rem !important;
       }
       textarea {
         height: 9rem;
       }
       .selected-tag {
-        font-size: 16px;
+        font-size: 16px !important;
       }
     }
   }
@@ -232,7 +233,7 @@
     .input {
       margin-bottom: 1.3rem;
       .selected-tag {
-        font-size: 14px;
+        font-size: 14px !important;
       }
       input, textarea {
         font-size: 14px;
@@ -244,7 +245,7 @@
         height: 8rem;
       }
       .dropdown-toggle {
-        height: 2.5rem;
+        height: 2.5rem !important;
       }
     }
   }
